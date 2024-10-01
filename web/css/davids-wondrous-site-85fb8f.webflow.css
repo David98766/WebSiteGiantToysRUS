@@ -1,0 +1,53 @@
+.navbar {
+  height: 80px;
+  color: #84e272;
+  background-color: #84e272;
+}
+
+.nav-link, .nav-link-2, .nav-link-3 {
+  margin-top: 10px;
+}
+
+.brand {
+  width: 100px;
+  height: 80px;
+  background-image: url('../images/Logo6_1.png');
+  background-position: 50%;
+  background-size: auto;
+}
+
+.image {
+  background-color: #fff;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg'), url('../images/Logo6_1.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, auto;
+}
+
+.image-2 {
+  width: 100px;
+  height: 80px;
+  background-image: url('../images/Logo6_1.png');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.menu-button {
+  background-image: url('../images/Logo6_1.png');
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.heading {
+  color: #000;
+}
+
+.submit-button {
+  width: 200px;
+  margin-left: 400px;
+}
+
+@media screen and (min-width: 1280px) {
+  .image {
+    margin-right: 10px;
+  }
+}

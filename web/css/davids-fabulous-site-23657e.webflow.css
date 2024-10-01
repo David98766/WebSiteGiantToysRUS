@@ -1,0 +1,262 @@
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.nav-link {
+  margin-left: 24px;
+  padding-left: 20px;
+}
+
+.nav-link-2 {
+  margin-right: 200px;
+}
+
+.nav-link-3 {
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.brand {
+  width: 100px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50%;
+  background-size: auto;
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.productholder {
+  border: 1px solid green;
+  border-radius: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.div-block {
+  width: 120px;
+  height: 120px;
+  margin-left: 16px;
+}
+
+.container {
+  border: 1px solid #84e272;
+  border-radius: 17px;
+}
+
+.div-block-2 {
+  height: 40px;
+  flex-direction: row;
+  display: flex;
+}
+
+.div-block-3 {
+  height: 100%;
+  flex-direction: column;
+  margin-left: 112px;
+  display: flex;
+}
+
+.body {
+  border-radius: 0;
+  padding-bottom: 0;
+}
+
+.div-block-4 {
+  height: 40px;
+  margin-top: 5px;
+}
+
+.div-block-5 {
+  width: 40px;
+  height: 40px;
+}
+
+.text-block {
+  width: 150px;
+}
+
+.link {
+  color: #f90909;
+  margin-top: 10px;
+}
+
+.div-block-6 {
+  margin-left: 131px;
+}
+
+.heading-2 {
+  margin-top: 18px;
+}
+
+.navbar, .image {
+  background-color: #fff;
+}
+
+.text-block-2 {
+  margin-top: 20px;
+  margin-left: 294px;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  background-color: #84e272;
+  border-radius: 19px;
+  margin-top: 76px;
+  margin-left: 355px;
+  line-height: 30px;
+}
+
+.container-2 {
+  width: 1000px;
+  margin-left: 1px;
+}
+
+@media screen and (min-width: 1280px) {
+  .nav-link {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+  }
+
+  .nav-link-3 {
+    margin-left: -4px;
+    margin-right: 0;
+  }
+
+  .brand {
+    margin-left: 65px;
+    margin-right: 120px;
+  }
+
+  .heading {
+    margin-left: 94px;
+  }
+
+  .container {
+    margin-left: 180px;
+  }
+
+  .image {
+    margin-right: 10px;
+  }
+
+  .text-block-2 {
+    margin-left: 439px;
+  }
+
+  .button {
+    margin-left: 550px;
+  }
+
+  .nav-menu {
+    width: 1200px;
+    margin-right: -71px;
+  }
+
+  .container-2 {
+    margin-left: 153px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav-link {
+    margin-left: 8px;
+    padding-left: 10px;
+  }
+
+  .nav-link-3 {
+    margin-left: -18px;
+  }
+
+  .brand {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .text-block-2 {
+    margin-left: 111px;
+  }
+
+  .button {
+    margin-left: 164px;
+  }
+}
+.incrementer-cart {
+    width: 50px !important; /* Adjust the width as needed */
+    height: 50px !important; /* Set the height to 50px */
+    padding: 5px !important; /* Add padding for better appearance */
+    font-size: 16px !important; /* Adjust the font size as needed */
+    text-align: center !important; /* Center the text inside the input */
+    border: 1px solid #84e272 !important; /* Set the border color to #84e272 */
+    border-radius: 5px !important; /* Add rounded corners */
+    margin-left: 200px; /* Add margin to move it 50px to the right */
+    margin-top: 30px; /* Add margin from the top */
+}
+
+.incrementer-cart:focus {
+    outline: none !important; /* Remove the default focus outline */
+    border-color: #4CAF50 !important; /* Change the border color when focused */
+    box-shadow: 0 0 5px #4CAF50 !important; /* Add a subtle box shadow when focused */
+}
+.small-button {
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 5px 10px; /* Adjust the padding as needed */
+    margin-left: auto; /* Push the buttons to the right */
+}
+  
+div.productholder form.w-commerce-updated-add-to-cart-form .updated-form-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items evenly with maximum space between */
+}
+
+div.productholder form.w-commerce-updated-add-to-cart-form .updated-input-container {
+    width: 30px !important;
+    margin-top: 12px; /* Updated margin from the top */
+    margin-left: 25px; /* Added margin from the left to push it to the right */
+    /* Add any input container styles here */
+}
+
+div.productholder form.w-commerce-updated-add-to-cart-form .updated-quantity-input {
+    width: 30px !important; /* Adjust the width as needed */
+    height: 30px !important; /* Set the height to 30px */
+    margin-top: 30px; /* Updated margin from the top */
+    /* Add any input styles here */
+}
+
+div.productholder form.w-commerce-updated-add-to-cart-form .updated-update-button {
+    margin-top: 12px; /* Updated margin from the top */
+    /* Add any button container styles here */
+}
+
+div.productholder form.w-commerce-updated-add-to-cart-form .updated-button-container {
+    margin: 30px 20px 0 20px; /* Updated top margin, keep the right, bottom, and left margins */
+    /* Add any button container styles here */
+}
